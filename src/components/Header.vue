@@ -9,11 +9,10 @@
       <b-collapse is-nav id="nav_collapse">
 
         <b-navbar-nav>
-          <router-link to="/form"><b-nav-item> </b-nav-item></router-link>
-          <b-nav-item href="#" > Dashboard </b-nav-item>
+          <b-nav-item href="/" > Dashboard </b-nav-item>
           <b-nav-item-dropdown text="Account" right>
-            <b-dropdown-item>Add Account</b-dropdown-item>
-            <b-dropdown-item>Get Account</b-dropdown-item>
+            <b-dropdown-item href="#/form">Add Account</b-dropdown-item>
+            <b-dropdown-item href="#/sample">Get Account</b-dropdown-item>
           </b-nav-item-dropdown>
         </b-navbar-nav>
 

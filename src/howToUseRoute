@@ -1,0 +1,31 @@
+Hey milo,
+
+first off now if you npm run dev this
+you will now be able to click on add
+account and it will take you to the form
+you had before, get account will go to a new page.
+
+This page is in the components folder
+and is called samplePage.
+
+When you want to make a new component
+to link to. Just make a new vue file,
+then go to the router folder, into
+index.js. Add an import that follows the
+syntax of the two examples and add to the
+routes part of 'export default' in a way
+that follows the syntax there.
+
+The variable path will then be how you
+change to that page, in the case of
+sample it is at /sample.
+
+So when you create a link to it
+you will do href="#/sample", the #
+is some thing vue uses to distinguish
+between normal page changing.
+
+For now I have gone to your header.vue,
+gone to the part which corresponds to
+the get account label and added a
+href="#/sample"
